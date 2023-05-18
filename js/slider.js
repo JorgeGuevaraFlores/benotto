@@ -31,5 +31,8 @@ window.addEventListener("DOMContentLoaded", function () {
   // Cambiar al slide anterior al hacer clic en la flecha de anterior
   prevButton.addEventListener("click", prevSlide);
 
+  // Cambiar automáticamente al siguiente slide cada 3 segundos
+  setInterval(nextSlide, 3000);
+
   showSlide();
 });

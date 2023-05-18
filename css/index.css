@@ -27,7 +27,7 @@ body {
 .nav-links {
   list-style: none;
   display: flex;
-  width: 30%;
+  width: 40%;
 }
 
 .nav-links li {
@@ -152,7 +152,16 @@ body {
   }
 }
 
+@media (max-width: 1112px) {
+  .nav-links {
+    width: 60%;
+  }
+}
+
 @media (max-width: 936px) {
+  .nav-links {
+    width: 80%;
+  }
   .logo img {
     width: 40%;
   }
